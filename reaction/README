@@ -1,0 +1,9 @@
+The Simulacro System Administrator Project is divided in three parts:
+
+1) Reaction
+2) Estaconn
+3) Interfaces (WEB and CLI BASED) 
+
+Reaction is based on BScript (portable, fast, lightweight BASIC interpreter Author: Ariya Hidayat <ariya@kde.org>).
+
+Exp server is in developer state
