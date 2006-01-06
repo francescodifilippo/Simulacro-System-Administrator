@@ -10,6 +10,7 @@ reaction_SOURCES = reaction.c runtime.c \
                   lex.l \
                   gram.y \
                   reaction.h \
+		  bsmt.h \
                   intern.h \
                   gram.h \
                   blib.c \
