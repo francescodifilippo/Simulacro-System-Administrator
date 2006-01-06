@@ -1,9 +1,7 @@
-/* compile: gcc `xml2-config --cflags --libs` -o xml2simulacro xml2simulacro.c */
+/* compile: gcc `xml2-config --cflags --libs` -o xmldeparse xmldeparse.c */
 
-#include "xmlparser.h"
+#include "xmlparse.h"
 
-int count_element(xmlNode * a_node);
-int  deparse(const char *);
 
 int main(int argc, char **argv) 
 {
@@ -29,7 +27,7 @@ int main(int argc, char **argv)
 
 	xmlFreeDoc(doc);
 
-	deparse(argv[1]);
+	xmldeparse(argv[1]);
 
 	xmlCleanupParser();
 
@@ -56,7 +54,7 @@ int count_element(xmlNode * a_node)
 }
 
 
-int deparse(const char *sBuffer) 
+int xmldeparse(const char *sBuffer) 
 {
 	int ret;
 	int check;

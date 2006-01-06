@@ -1,9 +1,6 @@
 
-/* compile: gcc `xml2-config --cflags --libs` -o simulacro2xml simulacro2xml.c */
+/* compile: gcc `xml2-config --cflags --libs` -o xmlparse xmlparse.c */
 
-#include <stdio.h>
-#include <string.h>
-#include <libxml/xmlwriter.h>
 #include "xmlparser.h"
 
 
