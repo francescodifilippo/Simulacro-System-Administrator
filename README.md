@@ -10,7 +10,7 @@ This project was originally developed in 2005 and remained frozen for 20 years b
 - **`estaconn/remoteconn/`**: Modules for managing remote connections.
 - **`reaction/`**: Main system component with support for modules and extensions.
   - **`src/`**: Core source code.
-  - **`modules/`**: Modules for expanding functionalities (`MOD_CONNECT`, `MOD_REG`, etc.), including an embedded scripting language inspired by BASIC.
+  - **`modules/`**: Modules for expanding functionalities (`MOD_CONNECT`, `MOD_REG`, etc.), including an embedded scripting language based on **BScript**, a lightweight and portable BASIC interpreter developed by **Ariya Hidayat**.
   - **`parser/`**: Integrated XML parser.
   - **`docs/`**: Documentation.
 - **Configuration and compilation files**: `Makefile.am`, `configure.in`, `INSTALL`.
@@ -31,7 +31,7 @@ Questo progetto è stato originariamente sviluppato nel 2005 ed è rimasto conge
 - **`estaconn/remoteconn/`**: Moduli per la gestione delle connessioni remote.
 - **`reaction/`**: Componente principale del sistema con supporto per moduli ed estensioni.
   - **`src/`**: Codice sorgente principale.
-  - **`modules/`**: Moduli per espandere le funzionalità (`MOD_CONNECT`, `MOD_REG`, etc.), incluso un linguaggio di scripting ispirato al BASIC.
+  - **`modules/`**: Moduli per espandere le funzionalità (`MOD_CONNECT`, `MOD_REG`, etc.), incluso un linguaggio di scripting basato su **BScript**, un interprete BASIC portabile e leggero sviluppato da **Ariya Hidayat**.
   - **`parser/`**: Parser XML integrato.
   - **`docs/`**: Documentazione.
 - **File di configurazione e compilazione**: `Makefile.am`, `configure.in`, `INSTALL`.
@@ -52,7 +52,7 @@ Hoc projectum anno 2005 conditum est et per 20 annos congelatum mansit antequam 
 - **`estaconn/remoteconn/`**: Moduli pro administratione connexionum remotarum.
 - **`reaction/`**: Pars principalis systematis cum subsidiis modulorum et extensionum.
   - **`src/`**: Codex principalis.
-  - **`modules/`**: Moduli ad facultates expandendas (`MOD_CONNECT`, `MOD_REG`, etc.), inclusum est lingua scriptoria inspirata a BASIC.
+  - **`modules/`**: Moduli ad facultates expandendas (`MOD_CONNECT`, `MOD_REG`, etc.), inclusum est lingua scriptoria ex **BScript**, interprete BASIC portabili et levi, a **Ariya Hidayat** creato.
   - **`parser/`**: XML interpretator integratus.
   - **`docs/`**: Documentatio.
 - **Configurationis et compilationis fasciculi**: `Makefile.am`, `configure.in`, `INSTALL`.
@@ -60,4 +60,3 @@ Hoc projectum anno 2005 conditum est et per 20 annos congelatum mansit antequam 
 ### Licentia
 Hoc projectum sub GNU General Public License v3 (GPLv3) distribuitur.  
 Plenum textum licentiae in fasciculo `LICENSE` vel [hic](https://www.gnu.org/licenses/gpl-3.0.txt) legere potes.
-
