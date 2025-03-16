@@ -1,0 +1,53 @@
+=head1 NAME
+
+reaction - Deamon server multithread 
+
+=head1 SYNOPSIS
+
+B<reaction>
+[ B<-d> ]
+[ B<-v> ]
+[ B<--version> ]
+
+=head1 DESCRIPTION
+
+B<reaction> E' il demone per la gestione delle connessioni e dei moduli, sul Simulacro Exp server.
+
+=head1 OPTIONS
+
+=over 8
+
+=item -d
+
+Debug mode.
+
+=item -v
+
+Verbose Mode.
+
+
+=item --version
+Mostra a video il numero di versione.
+
+=back
+
+=head1 EXAMPLES
+
+    reaction -d
+
+=head1 NOTES
+
+Reaction e' scritto in C e compilato usando gcc versione 2.7.8. Utilizza le librerie
+standard di C.
+
+=head1 RESTRICTIONS
+
+Non avviare reaction da utenze diverse da root . 
+
+=head1 BUGS
+
+Per il momento ci sono molti Bugs in reaction.
+
+=head1 AUTHORS
+
+Versione originale.

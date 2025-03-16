@@ -1,0 +1,11 @@
+AC_INIT(src/reaction.c)
+AM_INIT_AUTOMAKE(reaction,0.1-alfa)
+AC_PROG_CC
+AC_PROG_INSTALL
+AM_PROG_LEX
+AC_PROG_YACC
+dnl AC_CHECK_LIB(m,fabs)
+AC_OUTPUT(Makefile  docs/Makefile src/Makefile src/modules/MOD_CONNECT/Makefile\
+ src/modules/MOD_BOOLREG/Makefile\
+ src/modules/MOD_REG/Makefile\
+ src/modules/lib/Makefile)
