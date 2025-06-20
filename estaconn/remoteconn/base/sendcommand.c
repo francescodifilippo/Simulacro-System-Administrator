@@ -207,7 +207,7 @@ void ctrl_eod (int fd_expect)
                		{
 				if (VERBOSE)
 				{
-					printf ("- Maximazing timeout window(%d millisec)\n", MAX_BUFFER_TIMEOUT);
+					printf ("- Maximizing timeout window(%d millisec)\n", MAX_BUFFER_TIMEOUT);
 				}
 				tv.tv_sec = 0;
                                 tv.tv_usec = MAX_BUFFER_TIMEOUT;
