@@ -163,15 +163,19 @@ void bs_context_exec_unop( BSContext* cx, char op )
   /* bitwise not */
   case '~':
     x = bs_context_pop_number( cx->stack );
-    c = (long) x; c = ~c; x = (double) c;
-    bs_context_push_number( cx->stack, -x );
+    c = (long) x;
+    c = ~c;
+    x = (double) c;
+    bs_context_push_number( cx->stack, x );
     break;
 
   /* boolean not */
   case '!':
     x = bs_context_pop_number( cx->stack );
-    c = (long) x; c = ~c; x = (double) c;
-    bs_context_push_number( cx->stack, -x );
+    c = (long) x;
+    c = ~c;
+    x = (double) c;
+    bs_context_push_number( cx->stack, x );
     break;
 
 
