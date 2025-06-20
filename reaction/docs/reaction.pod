@@ -1,6 +1,6 @@
 =head1 NAME
 
-reaction - Deamon server multithread 
+reaction - Daemon server multithread 
 
 =head1 SYNOPSIS
 
