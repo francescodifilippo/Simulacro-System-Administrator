@@ -10,7 +10,7 @@ This project was originally developed in 2005 and remained frozen for 20 years b
 - **`estaconn/remoteconn/`**: Modules for managing remote connections.
 - **`reaction/`**: Main system component with support for modules and extensions.
   - **`src/`**: Core source code.
-  - **`modules/`**: Modules for expanding functionalities (`MOD_CONNECT`, `MOD_REG`, etc.), including an embedded scripting language based on **BScript**, a lightweight and portable BASIC interpreter developed by **Ariya Hidayat**. The system integrates **BScript** deeply, with execution contexts (`BSContext`), stack management (`BStack`), and predefined mathematical functions (`bhash_insert`).
+  - **`modules/`**: Modules for expanding functionalities (`MOD_CONNECT`, `MOD_REG`, etc.), including an embedded scripting language based on **BScript**, a lightweight and portable BASIC interpreter developed by **Ariya Hidayat** (https://bscript.sourceforge.net/). The system integrates **BScript** deeply, with execution contexts (`BSContext`), stack management (`BStack`), and predefined mathematical functions (`bhash_insert`).
   - **`parser/`**: Integrated XML parser.
   - **`docs/`**: Documentation.
 - **Configuration and compilation files**: `Makefile.am`, `configure.in`, `INSTALL`.
@@ -31,7 +31,7 @@ Questo progetto è stato originariamente sviluppato nel 2005 ed è rimasto conge
 - **`estaconn/remoteconn/`**: Moduli per la gestione delle connessioni remote.
 - **`reaction/`**: Componente principale del sistema con supporto per moduli ed estensioni.
   - **`src/`**: Codice sorgente principale.
-  - **`modules/`**: Moduli per espandere le funzionalità (`MOD_CONNECT`, `MOD_REG`, etc.), incluso un linguaggio di scripting basato su **BScript**, un interprete BASIC portabile e leggero sviluppato da **Ariya Hidayat**. Il sistema integra **BScript** in profondità, con contesti di esecuzione (`BSContext`), gestione dello stack (`BStack`) e funzioni matematiche predefinite (`bhash_insert`).
+  - **`modules/`**: Moduli per espandere le funzionalità (`MOD_CONNECT`, `MOD_REG`, etc.), incluso un linguaggio di scripting basato su **BScript**, un interprete BASIC portabile e leggero sviluppato da **Ariya Hidayat** (https://bscript.sourceforge.net/). Il sistema integra **BScript** in profondità, con contesti di esecuzione (`BSContext`), gestione dello stack (`BStack`) e funzioni matematiche predefinite (`bhash_insert`).
   - **`parser/`**: Parser XML integrato.
   - **`docs/`**: Documentazione.
 - **File di configurazione e compilazione**: `Makefile.am`, `configure.in`, `INSTALL`.
@@ -52,7 +52,7 @@ Hoc projectum anno 2005 conditum est et per 20 annos congelatum mansit antequam 
 - **`estaconn/remoteconn/`**: Moduli pro administratione connexionum remotarum.
 - **`reaction/`**: Pars principalis systematis cum subsidiis modulorum et extensionum.
   - **`src/`**: Codex principalis.
-  - **`modules/`**: Moduli ad facultates expandendas (`MOD_CONNECT`, `MOD_REG`, etc.), inclusum est lingua scriptoria ex **BScript**, interprete BASIC portabili et levi, a **Ariya Hidayat** creato. Systema **BScript** in se integrat, cum contextibus exsecutionis (`BSContext`), administratione aggeris (`BStack`), et functionibus mathematicis praedefinitis (`bhash_insert`).
+  - **`modules/`**: Moduli ad facultates expandendas (`MOD_CONNECT`, `MOD_REG`, etc.), inclusum est lingua scriptoria ex **BScript**, interprete BASIC portabili et levi, a **Ariya Hidayat** (https://bscript.sourceforge.net/) creato. Systema **BScript** in se integrat, cum contextibus exsecutionis (`BSContext`), administratione aggeris (`BStack`), et functionibus mathematicis praedefinitis (`bhash_insert`).
   - **`parser/`**: XML interpretator integratus.
   - **`docs/`**: Documentatio.
 - **Configurationis et compilationis fasciculi**: `Makefile.am`, `configure.in`, `INSTALL`.
